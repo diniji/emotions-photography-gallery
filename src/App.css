@@ -1,38 +1,340 @@
-.App {
+body {
+  margin: 0;
+}
+
+.homeBody {
+  background: url("./Photos/background8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #e3e3e3;
+  padding: 25px;
+  font-size: 25px;
+  text-shadow: 5px 10px 10px black;
+}
+
+.navLink {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Mansalva', cursive;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0 30px;
+}
+
+.filtersStyle {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgb(150, 148, 148);
+  border: none;
+  border-radius: 3px;
+  width: 130px;
+  font-family: 'Mansalva', cursive;
+  font-size: 23px;
+}
+
+.filtersStyle:hover {
+  background-color: #ab7e87;
+  color: white;
+  box-shadow: 0 0 10px 5px black;
+  cursor: pointer;
+}
+
+.artPosition {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.art-card {
+  padding: 2%;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgStyle {
+  border: 10px solid white;
+  box-shadow: 0 0 10px 10px rgb(150, 148, 148)
+}
+
+h2 {
+  font-family: 'Mansalva', cursive;
+  font-size: 27px;
+}
+
+.likes-counter {
+  font-family: 'Mansalva', cursive;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.likesStyle {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.aboutUsPosition {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0;
+  width: 100%;
+  background-image: url('./Photos/bg7.jpg');
+}
+
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #e3e3e344;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.aboutUsSetOfTwo{
+  display: flex;
+  align-items: center;
+}
+
+.aboutUsH2 {
+  padding: 15px;
+  color: rgb(221, 220, 220);
+  text-shadow: 2px 2px black;
+  font-weight: normal;
+}
+
+.aboutUsImg {
+  box-shadow: 0 10px 15px black;
+}
+
+.participateContainer {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  background-image: linear-gradient(to bottom, #deecfa, #eefaff);
+}
+
+.video-container {
+  display: flex;
+  width: 100vw;
+}
+
+.video-container video {
+  object-fit: cover;
+  width: 100%;
+  z-index: 0;
+}
+
+.participateH2 {
+  padding-bottom: 35px;
+  margin-right: 35px;
+  width: 40%;
+  background-image: linear-gradient(to right, #8380cfab, rgba(86, 195, 245, 0.603));
+  border-radius: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weightNormal {
+  font-weight: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-family: 'Mansalva', cursive;
+  text-shadow: 2px 3px 3px #2a2870;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fontParticipate, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+textarea {
+  margin-top: 25px;
+}
+
+button {
+  padding: 5px;
+}
+
+.sendButton {
+  border: 2px solid rgb(5, 117, 168);
+}
+
+.sendButton:hover {
+  background-color: rgb(5, 117, 168);
+  border: 2px solid white;
+  color: white;
+}
+
+/* ----------------------------------------------------------- */
+
+@media all and (max-width: 1289px) {
+  .participateContainer {
+    flex-direction: column;
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .participateH2 {
+    padding-bottom: 35px;
+    margin-right: 35px;
+    width: 70%;
+    border-radius: 25px;
   }
 }
+
+/* ----------------------------------------------------------- */
+
+@media all and (max-width: 915px) {
+  .aboutUsContainer {
+    width: 70%;
+  }
+  
+  .aboutUsH2 {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .participateContainer {
+    flex-direction: column;
+  }
+
+  .participateH2 {
+    padding-bottom: 35px;
+    margin-right: 35px;
+    width: 70%;
+    border-radius: 25px;
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@media all and (max-width: 550px) {
+  nav {
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    text-shadow: 5px 5px 10px black;
+  }
+  
+  .navLink {
+    padding: 3px;
+    margin: 2px;
+  }
+
+  .filtersContainer {
+    padding: 25px 0;
+  }
+  
+  .filtersStyle {
+    padding: 5px;
+    margin: 10px;    
+    width: 80px;
+    font-size: 15px;
+  }
+  
+  .art-card {
+    margin: 10px;
+  }
+  
+  .imgStyle {
+    border: 7px solid white;
+    box-shadow: 0 0 10px 7px rgb(150, 148, 148);
+    width: 210px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+  
+  .likes-counter {
+    font-size: 15px;
+  }
+  
+  .likesStyle {
+    border: 1px solid grey;
+  }
+
+  .aboutUsSetOfTwo{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutUsH2 {
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .imgTwo {
+    display: none;
+  }
+
+  .participateContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .participateH2 {
+    padding-bottom: 20px;
+    margin-right: 0px;
+    width: 85%;
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .fontParticipate, textarea {
+      font-size: 10px;
+      padding: 4px;
+      border-radius: 3px;
+      width: 90%;
+    }
+    
+    textarea {
+      margin-top: 10px;
+    }
+    
+    button {
+      padding: 1px;
+    }
+  }
