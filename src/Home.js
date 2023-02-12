@@ -27,6 +27,9 @@ function Home() {
                     )
                 }))}
             </div>
+            <div className="copyright">
+                <p>*All images and other media were taken from open sources for educational purposes.</p>
+            </div>
         </div>
     )
 }

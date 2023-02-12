@@ -94,6 +94,12 @@ h2 {
   border: 2px solid grey;
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: 'Mansalva', cursive;
+}
+
 .aboutUsPosition {
   display: flex;
   justify-content: center;
