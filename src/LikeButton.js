@@ -17,7 +17,8 @@ const LikeButton = () => {
 
   return (
     <div className="likesStyle">
-      <button className="likesStyle { `like-button ${isClicked && 'liked'}` }" onClick={ handleClick }>
+      <button className="likesStyle" onClick={ handleClick }
+        {... `like-button ${isClicked && 'liked'}` }>
         <span className="likes-counter">{ `Like | ${likes}` }</span>
         <span><img src={isClicked ? heart2 : heart1} className="likes-counter" width="20px" alt="heart" /></span>
       </button>

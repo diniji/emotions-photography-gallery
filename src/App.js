@@ -19,9 +19,9 @@ function App() {
 
       <Router>
         <nav>
-          <Link to="/" className="navLink">🎞️ <span>Gallery</span></Link>
-          <Link to="/about" className="navLink"><span>About</span></Link>
-          <Link to="/participate" className="navLink"><span>Take Part!</span></Link>
+          <Link to="/" className="navLink">🎞️ <span className="linkStyle">Gallery</span></Link>
+          <Link to="/about" className="navLink"><span className="linkStyle">About</span></Link>
+          <Link to="/participate" className="navLink"><span className="linkStyle">Take Part!</span></Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LikeButton, { Heart } from "./LikeButton";
+import LikeButton from "./LikeButton";
 import AOS from 'aos';
 import {useEffect} from "react";
 
@@ -10,7 +10,7 @@ function Gallery(props) {
       })
 
     const [over, setOver] = useState(false);
-    const { id, title, searchTerm, image1, image2 } = props.singleArt;
+    const { title, image1, image2 } = props.singleArt;
 
     return(
         <div className="art-card" data-aos="fade-up">
