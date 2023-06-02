@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import LikeButton from "./LikeButton";
 import AOS from 'aos';
-import {useEffect} from "react";
+import 'aos/dist/aos.css';
+
 
 function Gallery(props) {
 

@@ -1,9 +1,9 @@
 import giphy1 from './Videos/giphy.gif';
 import giphy2 from './Videos/giphy2.gif';
 import giphy3 from './Videos/giphy3.gif';
+import { useEffect } from "react";
 import AOS from 'aos';
-// import 'aos/dist/aos.css';
-import {useEffect} from "react";
+import 'aos/dist/aos.css';
 
 
 function About() {

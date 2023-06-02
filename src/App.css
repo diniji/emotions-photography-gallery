@@ -40,7 +40,7 @@ nav {
 .filtersStyle {
   padding: 10px;
   margin: 10px;
-  background-color: white;
+  background-color: #ebe8e8;
   box-shadow: 0 0 10px 5px rgb(150, 148, 148);
   border: none;
   border-radius: 3px;
@@ -72,7 +72,7 @@ nav {
 }
 
 .imgStyle {
-  border: 10px solid white;
+  border: 10px solid #ebe8e8;
   box-shadow: 0 0 10px 10px rgb(150, 148, 148)
 }
 
@@ -243,6 +243,11 @@ button {
     width: 70%;
     border-radius: 25px;
   }
+
+  .copyright {
+    margin-left: 6px;
+  }
+  
 }
 
 /* ----------------------------------------------------------- */
@@ -343,4 +348,9 @@ button {
     button {
       padding: 1px;
     }
+
+    .copyright {
+      font-size: 11px;
+    }
+
   }

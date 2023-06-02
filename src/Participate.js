@@ -11,7 +11,7 @@ function Participate() {
 
     return(
         <div className='participateContainer'>
-            <div class="video-container">
+            <div className="video-container">
                 <video autoPlay muted loop id="video">
                     <source src={myVideo} type="video/mp4" />
                 </video>
