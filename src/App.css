@@ -41,7 +41,7 @@ nav {
   padding: 10px;
   margin: 10px;
   background-color: #ebe8e8;
-  box-shadow: 0 0 10px 5px rgb(150, 148, 148);
+  box-shadow: 0 0 8px 2px rgb(168, 166, 166);
   border: none;
   border-radius: 3px;
   width: 130px;
@@ -52,7 +52,7 @@ nav {
 .filtersStyle:hover {
   background-color: #ab7e87;
   color: white;
-  box-shadow: 0 0 10px 5px black;
+  box-shadow: 0 0 10px 2px black;
   cursor: pointer;
 }
 
@@ -73,7 +73,7 @@ nav {
 
 .imgStyle {
   border: 10px solid #ebe8e8;
-  box-shadow: 0 0 10px 10px rgb(150, 148, 148)
+  box-shadow: 0 0 4px 2px rgb(133, 133, 133)
 }
 
 h2 {
@@ -91,7 +91,7 @@ h2 {
   display: flex;
   align-items: center;
   border-radius: 5px;
-  border: 2px solid grey;
+  border: 1px solid grey;
 }
 
 .copyright {

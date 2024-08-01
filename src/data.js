@@ -4,6 +4,8 @@ import neutrality3 from './Photos/neutrality3.jpg';
 import neutrality4 from './Photos/neutrality4.jpg';
 import neutrality5 from './Photos/neutrality5.jpg';
 import neutrality8 from './Photos/neutrality8.jpg';
+import calmness from './Photos/calmness.jpg';
+import calmness2 from './Photos/calmness2.jpg';
 import anger4 from './Photos/strength6b.jpg';
 import anger9 from './Photos/anger9.jpg';
 import anger2 from './Photos/anger2.jpg';
@@ -38,10 +40,10 @@ export const data = [
 
     {
         id: 1,
-        title: "Sadness",
-        searchTerm: "sad",
-        image1: sadness8,
-        image2: sadness6
+        title: "Calmness",
+        searchTerm: "neutral",
+        image1: calmness,
+        image2: calmness2
     },
 
     {
@@ -52,64 +54,25 @@ export const data = [
         image2: hope9
     },
 
-    {
-        id: 3,
-        title: "Inertia",
-        searchTerm: "neutral",
-        image1: neutrality4,
-        image2: neutrality5
-    },
 
     {
+        id: 3,
+        title: "Simply static",
+        searchTerm: "neutral",
+        image1: neutrality2,
+        image2: neutrality8
+    },
+    
+    {
         id: 4,
-        title: "Ohh, no..",
+        title: "Sadness",
         searchTerm: "sad",
-        image1: sadness,
-        image2: sadness7
+        image1: sadness8,
+        image2: sadness6
     },
 
     {
         id: 5,
-        title: "Furiousness!",
-        searchTerm: "angry",
-        image1: anger11,
-        image2: anger9
-    },
-
-    {
-        id: 6,
-        title: "No more!..",
-        searchTerm: "angry",
-        image1: anger8,
-        image2: anger2
-    },
-
-    {
-        id: 7,
-        title: "Indifference",
-        searchTerm: "neutral",
-        image1: neutrality,
-        image2: neutrality3
-    },
-
-    {
-        id: 8,
-        title: "A bliss",
-        searchTerm: "happy",
-        image1: happiness4,
-        image2: happiness6
-    },
-
-    {
-        id: 9,
-        title: "Deep inside..",
-        searchTerm: "sad",
-        image1: sadness4,
-        image2: sadness3
-    },
-
-    {
-        id: 10,
         title: "Her memories..",
         searchTerm: "happy",
         image1: happiness5,
@@ -117,19 +80,59 @@ export const data = [
     },
 
     {
-        id: 11,
-        title: "Simply static",
+        id: 6,
+        title: "Inertia",
         searchTerm: "neutral",
-        image1: neutrality2,
-        image2: neutrality8
+        image1: neutrality4,
+        image2: neutrality5
+    },
+
+    {
+        id: 7,
+        title: "Ohh, no..",
+        searchTerm: "sad",
+        image1: sadness,
+        image2: sadness7
+    },
+
+    {
+        id: 8,
+        title: "Furiousness!",
+        searchTerm: "angry",
+        image1: anger11,
+        image2: anger9
+    },
+
+    {
+        id: 9,
+        title: "No more!..",
+        searchTerm: "angry",
+        image1: anger8,
+        image2: anger2
+    },
+
+    {
+        id: 10,
+        title: "Indifference",
+        searchTerm: "neutral",
+        image1: neutrality,
+        image2: neutrality3
+    },
+
+    {
+        id: 11,
+        title: "A bliss",
+        searchTerm: "happy",
+        image1: happiness4,
+        image2: happiness6
     },
 
     {
         id: 12,
-        title: "Storm",
-        searchTerm: "angry",
-        image1: anger6,
-        image2: anger4
+        title: "Deep inside..",
+        searchTerm: "sad",
+        image1: sadness4,
+        image2: sadness3
     },
 
     {
@@ -158,6 +161,14 @@ export const data = [
 
     {
         id: 16,
+        title: "Storm",
+        searchTerm: "angry",
+        image1: anger6,
+        image2: anger4
+    },
+
+    {
+        id: 17,
         title: "Strength of nature",
         searchTerm: "strength",
         image1: strength4,
@@ -165,10 +176,11 @@ export const data = [
     },
 
     {
-        id: 17,
+        id: 18,
         title: "Vitality",
         searchTerm: "strength",
         image1: strength,
         image2: strengthc
     },
+
 ]
